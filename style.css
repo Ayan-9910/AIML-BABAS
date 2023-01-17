@@ -1,0 +1,246 @@
+@charset "utf-8"; /****   Developed by http://www.freetimelearning.com/    *****/
+*{
+	margin-left:auto;
+	margin-right:auto;
+}
+body{ font-family:Arial, Helvetica, sans-serif; background:#FFF; margin:0px;}
+.m30_auto{ margin:30px auto;}
+.main{ width:1024px;}
+.clearfix{ clear:both;}
+
+/*********** Start Header (or) Menu **********/
+.header{width:1024px; float:left; border-top:5px solid #0066dd; background:#F2F2F2;}
+.header-left{ width:250px; float:left;}
+.header-right{ 	width:774px; height: 35px; float:left;}
+.header-right ul{list-style:none;}
+.header-right ul li{
+	list-style:none; font-family:arial; font-size:14px; padding:5px 0px 15px 0px; 
+	margin:5px 0px 12px; float:left; font-weight:bold;
+}
+.header-right ul li a{ padding:5px 20px 10px; margin:2px 0px 5px; text-decoration:none; color:#000;}
+.header-right ul li a:hover{ color:#0099dd;}
+/*********** End Header (or) Menu **********/
+	
+/************* Start Slider (or) Banner *************/
+.banner{ width:1024px; background: url(banner.jpg); height: 300px; float:left; }
+.banner-links{ font-family:Arial, Helvetica, sans-serif; padding:145px 20px 50px;}
+.banner-links a{font-size:26px; padding:0px 20px; text-decoration:none; color:#FFF; font-weight:600;}
+.banner-links a:hover{ color:#000;}
+/************** End Slider (or) Banner *************/
+
+/*************** Start Content *****************/	
+.content{ width:1022px; height:auto; border:1px solid #CCC; float:left; padding-bottom:20px;}
+.content-left{ width:458px; height:auto; float:left; text-align:justify; padding:0px 20px; line-height:24px;}
+.content-right{ width:440px; height:auto; float:left; padding:0px 20px 0px 60px;}
+.content-header{color:#000; font-size:26px; text-align:center; padding:25px 10px 15px;}
+.content-header a{ color:#0099dd; text-decoration:none;}
+.content-header a:hover{ color:#069;}
+
+.content-bottom-boxes{ width:300px; float:left; padding:0px 20px; color:#000;}
+.content-bottom-bg{ background-color: antiquewhite; float:left; padding:20px 15px;}
+.content-bottom-bg-header{ font-size:18px; padding-bottom:15px;}
+.content-bottom-bg-p{ line-height:24px;}
+/************ End Content **************/
+
+/************ Start Testimonials ************/
+.testimonials{ width:1024px; background:url(banner1.jpg); height:309px; float:left; }
+.testimonials-h4{ font-size:26px; line-height:46px; padding:80px 100px; color: #000; text-align:center;}
+.testimonials a{ color: rgb(245, 245, 244); font-size:18px; padding:20px 0px; text-align:center; text-decoration:none;}
+.testimonials a:hover{ color:#FFF;}
+/************ End Testimonials ************/
+
+/************ Start Footer *****************/
+#footer{ width:1024px; float:left; background-color: rgb(38, 212, 212);}
+.footer-parts{ width:300px; float:left; padding:0px 20px;}
+.footer-parts-h4{ font-size:18px; padding:15px 10px 0px;}
+.footer-parts ul{list-style:none; padding:0px;}
+.footer-parts ul li{list-style:none; font-size:12px; padding:5px; margin:5px 0px; font-weight:bold;}
+.footer-parts ul li a{padding:8px 10px; margin:2px 0px; text-decoration:none; color:#000;}
+.footer-parts ul li a:hover{color:#FFF;}
+.copyrights{ width:964px; font-size:12px; background:#0099dd; float:left; padding:15px 30px 15px 30px; color:#FFF; }
+.copyrights-left{ width:664px; float:left;}
+.copyrights-left a{ color:#FFF; text-decoration:none;}
+.copyrights-left a:hover{color:#CCC;}
+.copyrights-right{ width:300px; float:left; text-align:right;}
+.copyrights-right a{ color:#FFF; text-decoration:none;}
+.copyrights-right a:hover{color:#CCC;}
+/*************** End Footer ***********/
+.contentfacalty{margin-left: 1%;}
+.testimonials1{ width:1024px; background-color: #CCC; height: 220px; float:left; }
+.members{margin-left: 1%;}
+.feedback{ width:1024px; background-color: #FFF; height: 150px; float:left; }
+
+
+
+
+
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.social-media {height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.social-media a .fa {
+    font-size: 20px;
+    line-height: 50px;
+    color: #000;
+}
+
+.social-media a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: 3px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    border-radius: 50px;
+}
+
+.social-media a:before {
+    content: '';
+    top: -6px;
+    left: 3px;
+    width: 100%;
+    height: 10%;
+    background: rgba(0, 0, 0, 0.5);
+    transform: skewX(-45deg);
+}
+
+.social-media a:after {
+    content: '';
+    top: -2.5px;
+    left: 50px;
+    width: 10%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    transform: skewY(-45deg);
+}
+
+.social-media .social-media .blogtriggers-facebook {
+    color: #3b5998;
+}
+
+.social-media a:hover {
+    transform: translate(-10%, 10%);
+    box-shadow: 10px 0 35px #000;
+    transition: 0.3s;
+}
+
+.social-media .blogtriggers-facebook {
+    background: #3b5998;
+}
+
+.social-media .blogtriggers-facebook .fa {
+    color: #fff;
+}
+
+.social-media .blogtriggers-twitter {
+    background: #55acee;
+}
+
+.social-media .blogtriggers-twitter .fa {
+    color: #fff;
+}
+
+.social-media .blogtriggers-youtube {
+    background: #cd201f;
+}
+
+.social-media .blogtriggers-youtube .fa {
+    color: #fff;
+}
+
+.social-media .blogtriggers-instagram {
+    background: #f09433;
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
+}
+
+.social-media .blogtriggers-instagram .fa {
+    color: #fff;
+}
+
+.social-media .blogtriggers-quora {
+    background: #b92b27;
+}
+
+.social-media .blogtriggers-quora .fa {
+    color: #fff;
+}
+
+.social-media .blogtriggers-linkedin {
+    background: #0077b5;
+}
+
+.social-media .blogtriggers-linkedin .fa {
+    color: #fff;
+}
+
+.social-media .blogtriggers-whatsapp {
+    background: #25d366;
+}
+
+.social-media .blogtriggers-whatsapp .fa {
+    color: #fff;
+}
+
+.social-media .blogtriggers-pinterest {
+    background: #b3001b;
+}
+
+.social-media .blogtriggers-pinterest .fa {
+    color: #fff;
+}
+
+.social-media .blogtriggers-telegram {
+    background: #0088cc;
+}
+
+.social-media .blogtriggers-telegram .fa {
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+}
+
+.tutorial-button {
+    margin: 10px 0px;
+    width: 30%;
+    height: 50px;
+    background: rgba(205, 32, 31, 0.3);
+    position: relative;
+    transition: 0.2s;
+}
+
+.tutorial-button p {
+    padding: 12px;
+    text-align: center;
+    color: #333;
+    font-size: 1rem;
+    font-family: sans-serif;
+    transition: 0.2s;
+}
+
+.tutorial-button:hover {
+    background: rgba(205, 32, 31, 1);
+    box-shadow: 5px 5px 5px black;
+    transition: 0.2s;
+}
+
+.tutorial-button:hover p {
+    color: #fff;
+    transition: 0.2s;
+}
